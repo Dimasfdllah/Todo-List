@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <h2>TODO <span>LIST</span></h2>
+      <!-- <section class="container"> -->
+      <form name="todo-form">
+        <table>
+          <thead>
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  name="todo"
+                  id="todo"
+                  placeholder="Type..."
+                />
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><button id="submit">Add</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+      <table class="search">
+        <thead>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search"
+              />
+            </td>
+          </tr>
+        </thead>
+      </table>
+      <!-- </section> -->
+      <div id="result" class="result">
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
